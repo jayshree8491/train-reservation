@@ -1,0 +1,40 @@
+.seat-reservation-app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.seat-map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+
+.seat.reserved {
+  background-color: lightgray;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.reserved-seats {
+  margin-top: 20px;
+}
+
